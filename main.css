@@ -12,6 +12,15 @@ body {
     color: #333;
 }
 
+.logo{
+    position: absolute;
+    top : 30px;
+    left: 30px;
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
 .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -34,13 +43,14 @@ h2 {
 
 /* --- Header --- */
 .main-header {
-    background-color: #3498db; /* Cambié a azul para combinar con tus imágenes */
+    background-color: #0c344f; /* Cambié a azul para combinar con tus imágenes */
     color: #fff;
     padding: 60px 0;
     text-align: center;
 }
 
 .main-header h1 {
+    padding-top: 15px;
     font-size: 2.5rem;
     margin-bottom: 10px;
 }
@@ -144,7 +154,7 @@ h2 {
 }
 
 .objectives-list li::before {
-    content: "🎯"; /* Icono decorativo */
+    content: "📍"; /* Icono decorativo */
     margin-right: 15px;
     font-size: 1.2rem;
 }
