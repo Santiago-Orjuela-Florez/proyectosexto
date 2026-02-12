@@ -14,7 +14,7 @@ body {
 
 .logo{
     position: absolute;
-    top : 30px;
+    top : 10px;
     left: 30px;
     width: 200px;
     height: auto;
@@ -50,7 +50,7 @@ h2 {
 }
 
 .main-header h1 {
-    padding-top: 15px;
+    padding-top: 5px;
     font-size: 2.5rem;
     margin-bottom: 10px;
 }
@@ -165,4 +165,9 @@ footer {
     color: #fff;
     text-align: center;
     padding: 25px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
 }
